@@ -15,11 +15,11 @@ variables:
       icapi_space_name: icapi_dm_space
 
       data_foundation:
-        #data_developer_source_id: d3e4b238-b7b8-4d61-81cb-50fcbe4bd213
-        data_developer_source_id: 443b0617-fc60-4e34-94f9-cd7974918392
+        data_developer_source_id: d3e4b238-b7b8-4d61-81cb-50fcbe4bd213
         
       ice_cream_api:
-        icapi_extractors_source_id: b075df88-99db-4feb-832d-57d603922d3c
+        #icapi_extractors_source_id: b075df88-99db-4feb-832d-57d603922d3c
+        icapi_extractors_source_id: b075df88-99db-4feb-832d-57d603922d3cdløfkvøld
         tokenUri: ${IDP_TOKEN_URL}
         cdfProjectName: ${CDF_PROJECT}
         scopes: ${IDP_SCOPES}
