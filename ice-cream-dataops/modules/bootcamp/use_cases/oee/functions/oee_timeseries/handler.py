@@ -203,7 +203,7 @@ def process_site(client, lookback_minutes, site):
             try:
                 client.time_series.data.insert_multiple(to_insert)
             except CogniteNotFoundError as e:
-                # Create the missing oee timeseries since they don't exist
+                # Create the missing oee timeseries since they don't exist.
                 ts_to_create = []
                 for node_id in e.not_found:
                     print(f"Creating CogniteTimeSeries {node_id}")
